@@ -1,0 +1,23 @@
+queue unit testing results:
+
+    queue is empty
+    10 , 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 ,
+
+    the first item is 10
+    20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 ,
+
+    queue is not empty
+    queue size = 8
+    the first item is 20
+
+
+queue unit testing using linked list :
+
+    the queue is empty
+    the queue after enqueue items is :
+    10 ---> 20 ---> 30 ---> 40 ---> 50 ---> 60 ---> 70 ---> 80 ---> 90 ---> None
+    the queue has (9) nodes
+    the first item in queue is 10
+    the queue after dequeue items is :
+    20 ---> 30 ---> 40 ---> 50 ---> 60 ---> 70 ---> 80 ---> 90 ---> None
+    the first item in queue is 20
