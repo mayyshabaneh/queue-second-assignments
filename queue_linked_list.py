@@ -1,6 +1,7 @@
 from linkedlist import LinkedList
 class queueLinkedList():
-    # when code initialize they create a linked list by default
+    
+    # when code initialize they create a linked list to call a class node and create default linked list
     def __init__(self) :
        self.quell = LinkedList()
     
@@ -10,7 +11,7 @@ class queueLinkedList():
         self.quell.add_Last_Node(value)
 
 
-    # when you use dequeue it removes the first item in queue
+    # when you use dequeue it removes the first item / node in queue / linked list by delete first function
     def dequeuell(self):
         self.quell.delete_First()
 

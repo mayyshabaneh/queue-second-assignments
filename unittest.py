@@ -1,8 +1,9 @@
 from queue_1 import Queue
 from queue_linked_list import queueLinkedList
-
+from queue_2 import QueueScratch
 queue1 = Queue()
 queell = queueLinkedList()
+quesc = QueueScratch()
 
 def enqueue_test():
         queue1.enqueue(10)
@@ -65,16 +66,31 @@ def peekll_test():
 def printqueell_test():
     queell.print()
 
-isEmptyll_test()
-print("the queue after enqueue items is :")
-enqueuell_test()
-printqueell_test()
-isEmptyll_test()
-peekll_test()
-print("the queue after dequeue items is :")
-dequeuell_test()
-printqueell_test()
-peekll_test()
+def enqueuesc_test():
+    quesc.enqueuesc(10)
+    quesc.enqueuesc(20)
+    quesc.enqueuesc(30)
+    quesc.enqueuesc(40)
+    quesc.enqueuesc(50)
+    quesc.enqueuesc(60)
+    quesc.enqueuesc(70)
+    quesc.enqueuesc(80)
+    quesc.enqueuesc(90)
+
+
+def dequeuesc_test():
+    quesc.dequeue()
+
+
+def isEmptysc_test():
+    if quesc.isEmpty() == True :
+        print("the queue is empty")
+    else:
+        print(f"the queue has ({quesc.size()}) nodes : ")
+
+def peeksc_test():
+    print(f"the first item is {quesc.peek()}")
+# print("queue using list :")
 # isEmpty_test()
 # enqueue_test()
 # peek_test()
@@ -82,3 +98,27 @@ peekll_test()
 # isEmpty_test()
 # size_test()
 # peek_test()
+
+# print("\n \n \n \n queue using linked list")
+
+# isEmptyll_test()
+# print("the queue after enqueue items is :")
+# enqueuell_test()
+# printqueell_test()
+# isEmptyll_test()
+# peekll_test()
+# print("the queue after dequeue items is :")
+# dequeuell_test()
+# printqueell_test()
+# peekll_test()
+isEmptysc_test()
+enqueuesc_test()
+isEmptysc_test()
+quesc.display_Queue()
+dequeuesc_test()
+print("\n")
+quesc.display_Queue()
+dequeuesc_test()
+print("\n")
+peeksc_test()
+quesc.display_Queue()

@@ -7,6 +7,8 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+
+    # display function to print the linked list nodes data
     def display_List(self):
         current_node = self.head
         while current_node:
@@ -15,13 +17,14 @@ class LinkedList:
         print("None")  
 
 
+    # to add a node at the first of linked list
     def add_First_Node(self, value):
         new_node = Node(value)
         new_node.next = self.head
         self.head = new_node
 
 
-
+    # to add a node at end of linked list
     def add_Last_Node(self, value):
         new_node = Node(value)
         if self.head is None:
@@ -32,6 +35,8 @@ class LinkedList:
             last_node = last_node.next
         last_node.next = new_node
 
+
+    # to add a node at a spesific index in linked list
     def insert_At_Index(self, index, value):
         if index == 0:
             self.add_First_Node(value)

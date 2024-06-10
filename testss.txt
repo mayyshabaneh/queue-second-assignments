@@ -21,3 +21,14 @@ queue unit testing using linked list :
     the queue after dequeue items is :
     20 ---> 30 ---> 40 ---> 50 ---> 60 ---> 70 ---> 80 ---> 90 ---> None
     the first item in queue is 20
+
+
+queue from scratch is:
+    the queue is empty
+    the queue has (9) nodes :
+    10-20-30-40-50-60-70-80-90-
+
+    20-30-40-50-60-70-80-90-
+
+    the first item is 30
+    30-40-50-60-70-80-90-
